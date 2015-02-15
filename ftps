@@ -1,3 +1,4 @@
 #!/bin/bash
-ruby ftps.rb $*
+export FTPS_PATH=
+ruby $FTPS_PATH/ftps.rb $*
 
